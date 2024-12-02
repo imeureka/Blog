@@ -9,18 +9,32 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Eureka's Log`,
+    subtitle: `유레카! 가영이의 성장 로그`,
+    description: `유레카! 가영이의 성장 로그`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `@Ka-Young`,
+      summary: `live in Seoul, Korea`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    introduction: `안녕하세요. 가영이의 성장 로그입니다.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      github: `imeureka`,
     },
+    keywords: [
+      `blog`,
+      `gatsby`,
+      `application`,
+      `react`,
+      `Ka-Young`,
+      `Kayoung`,
+      `FontEnd`,
+      `Developer`,
+      `Eureka's Log`,
+    ],
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
